@@ -1,5 +1,5 @@
 /**
- * "HolyGrail" is a program that asks for the user's name, quest, and favorite color. It then
+ * "HolyGrail" is a program that asks for the user's information. It then
  * repeats this information back to the user at the end of the program
  *
  * @version 09/15/2021
