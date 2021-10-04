@@ -23,9 +23,9 @@ public class RomanToDecimalTest {
         assertEquals(RomanToDecimal.romanToDecimal("LV"), 55);
         assertEquals(RomanToDecimal.romanToDecimal("XC"), 90);
         assertEquals(RomanToDecimal.romanToDecimal("CL"), 150);
-        assertEquals(RomanToDecimal.romanToDecimal("MCMLIV"), 2154);
+        assertEquals(RomanToDecimal.romanToDecimal("MCMLIV"), 1954);
         assertEquals(RomanToDecimal.romanToDecimal("IVIVXXI"), 31);
-        assertEquals(RomanToDecimal.romanToDecimal("IVVCMDL"), 1659);
+        assertEquals(RomanToDecimal.romanToDecimal("IVVCMDL"), 1459);
         assertEquals(RomanToDecimal.romanToDecimal("IIIMMMIII"), 3006);
         assertEquals(RomanToDecimal.romanToDecimal("LCVIV"),159 );
         assertEquals(RomanToDecimal.romanToDecimal("HELLO"), -1);
