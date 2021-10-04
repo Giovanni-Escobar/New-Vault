@@ -38,9 +38,9 @@ public class RomanToDecimal {
         }
         if (roman.indexOf("IV") != -1 || roman.indexOf("IX") != -1)
             sum -= 2;
-        else if (roman.indexOf("XL") != -1 || roman.indexOf("XC") != -1)
+        if (roman.indexOf("XL") != -1 || roman.indexOf("XC") != -1)
             sum -= 20;
-        else if (roman.indexOf("CD") != -1 || roman.indexOf("CM") != -1)
+        if (roman.indexOf("CD") != -1 || roman.indexOf("CM") != -1)
             sum -= 200;
 
         return sum;
