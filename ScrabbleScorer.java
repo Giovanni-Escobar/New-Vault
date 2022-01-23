@@ -91,7 +91,6 @@ public class ScrabbleScorer {
                     }
                 }
             }
-
         }
         catch(Exception e){
             e.printStackTrace();
