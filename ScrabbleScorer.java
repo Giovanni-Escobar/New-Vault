@@ -84,7 +84,7 @@ public class ScrabbleScorer {
                         System.out.println(userWord + " = " + app.getWordScore(userWord.toUpperCase()) + " points" );
                     }
                     else if(userWord.isBlank()){
-                        System.out.println("Please use a word");
+                        System.out.println("Please use a real word");
                     }
                     else{
                         System.out.println(userWord.toUpperCase() + " is not a valid word in the dictionary");
