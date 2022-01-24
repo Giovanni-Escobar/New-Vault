@@ -87,7 +87,7 @@ public class ScrabbleScorer {
                         System.out.println("Please use a real word");
                     }
                     else{
-                        System.out.println(userWord.toUpperCase() + " is not a valid word in the dictionary");
+                        System.out.println(userWord + " is not a valid word in the dictionary");
                     }
                 }
             }
